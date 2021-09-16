@@ -25,7 +25,7 @@ const calculateProfitAndLoss = () => {
       outputDiv.innerHTML = `No pain No gain, and no gain no pain :)`;
     }
   } else {
-    alert("Fill all the fields correctly \nInput can not be 0 or empty!")
+    outputDiv.innerHTML = `Fill all the fields correctly. Inputs can not be 0 or empty!`
   }
 }
 
